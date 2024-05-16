@@ -701,8 +701,7 @@ def publish_level1(publisher, config, msg, filelist, station_name, environment):
             if 'dataset' in msg_to_send:
                 del msg_to_send['dataset']
 
-            msg_to_send['uri'] = "file://{}{}".format(config['aapp_processes'][
-                config.process_name]['message_providing_server'], file['file'])
+            msg_to_send['uri'] = file['file']
 
             msg_to_send['filename'] = os.path.basename(file['file'])
             msg_to_send['uid'] = os.path.basename(file['file'])
