@@ -1,3 +1,15 @@
+## Version 0.11.0 (2024/05/24)
+
+
+### Pull Requests Merged
+
+#### Features added
+
+* [PR 31](https://github.com/pytroll/pytroll-aapp-runner/pull/31) - Remove unnecessary dependencies
+
+In this release 1 pull request was closed.
+
+
 ## Version 0.10.0 (2022/01/08)
 
 
