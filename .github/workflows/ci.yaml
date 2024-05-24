@@ -43,7 +43,6 @@ jobs:
         run: |
           python -m pip install \
           --no-deps --pre --upgrade \
-          git+https://github.com/jswhit/pygrib \
           git+https://github.com/pytroll/posttroll \
           git+https://github.com/pytroll/trollsift;
 
